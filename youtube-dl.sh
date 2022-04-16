@@ -1,8 +1,9 @@
 #!/bin/bash
 
 
+#   author:    Santhosh veer
 
-## actualizando paquetes
+## Update packages
 echo "+++ Updating the Packages +++"
 echo "+++ Running Command pkg up +++"
 
@@ -13,7 +14,7 @@ echo "+++ Packages are Updated Successfully +++"
 sleep 2;
 echo -e "\\n"
 
-## Instalando dependencias
+## Install dependency packages
 echo -e "+++ Install dependency packages +++"
 sleep 2;
 echo -e "\\n"
@@ -46,7 +47,7 @@ sleep 2;
 
 echo -e "\\n"
 
-## Descargando Youtube-dl
+## Download Youtube-dl
 echo -e "+++ Downloading Youtube-dl +++"
 echo -e "+++ Please Wait +++"
 
@@ -59,7 +60,7 @@ echo -e "\\n"
 
 sleep 2;
 
-## Enviando Permiso
+## Set Permission
 echo -e "+++ Set Permission to Execute the Script +++"
 
 chmod a+rx /data/data/com.termux/files/usr/bin/youtube-dl
@@ -70,7 +71,7 @@ sleep 2;
 
 echo -e "\\n"
 
-## Verificando Instalacion
+## Verify the Installation
 echo -e "+++ Verifiy Installation +++"
 
 youtube-dl --version
@@ -80,5 +81,5 @@ sleep 2;
 
 echo -e "\\n"
 
-echo "+++ Instalacion completa con exito +++"
-echo "+++ Youtube-dl Utilize para descargar Videos   +++"
+echo "+++ Installation completed successfully +++"
+echo "+++ You can Now use Youtube-dl to download the Youtube Videos +++"
