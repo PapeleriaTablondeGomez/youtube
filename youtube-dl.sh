@@ -1,7 +1,19 @@
 #!/bin/bash
 
-
-#   author:    Santhosh veer
+# -----------------------------------------------------------------------------
+# Info:
+#   author:    Termux - Byte
+#   file:      youtube-dl.sh
+#   created:   0:0:0
+#   revision:  0:0:0
+#   version:   0.0
+# -----------------------------------------------------------------------------
+# Requirements:
+#   Python, ffmpeg, cURL
+# Description:
+#   youtube-dl Downloader for Termux Terminal Emulator
+#
+# -----------------------------------------------------------------------------
 
 ## Update packages
 echo "+++ Updating the Packages +++"
